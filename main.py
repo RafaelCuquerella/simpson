@@ -20,7 +20,7 @@ w = 0
 
 #Se genera la función para solicitar personaje, frase y los diferencia para guardar en Homer, Lisas o General
 while True: 
- time.sleep(5)#Se agrega para que haga el get a la api cada 30 segundos
+ time.sleep(5)#Se agrega para que haga el get a la api cada 5 (se ha cambiado a 5 para que nio tarde tanto en comprobarse) segundos
  resp = requests.get("https://thesimpsonsquoteapi.glitch.me/quotes") #función para get a la api 
  resp.json()
  frase=resp.json()[0]['quote'] #Solicita solo la frase 
