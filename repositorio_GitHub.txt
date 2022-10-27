@@ -1,1 +1,5 @@
+Esta es la URL y dirección al repositorio GitHub del entregable 0 del ejercicio de Los Simpson
+
+https://github.com/RafaelCuquerella/simpson
+
 git@github.com:RafaelCuquerella/simpson.git
